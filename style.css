@@ -10,6 +10,7 @@ body {
     margin: 30px auto;
     line-height: 1.5;
     padding: 0 10px;
+    max-width:80%;
 }
 
 .navigation-bar{
@@ -30,10 +31,22 @@ a:hover {
 }
 
 /* Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .navigation-bar {
         flex-direction: column;
     }
+
+    section {
+        flex-direction: column;
+    }
+}
+
+section {
+    display: flex;
+}
+
+section div{
+    flex: 1 300px;
 }
 
 a {
