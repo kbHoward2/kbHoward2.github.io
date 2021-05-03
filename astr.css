@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h2, h2, h3, h4 {
     line-height: 1.2;
     text-align: center;
 }
@@ -30,14 +30,8 @@ p {
 }
 
 footer {
-    font-size: small; 
-    margin:0 0 2% 0;
+    margin-top: 5%;
     background-color: #cc4e4e;
-}
-
-footer p {
-    margin: 2%;
-    padding: 0;
 }
 
 .navigation-bar{
@@ -71,6 +65,19 @@ a:hover {
 aside{
     font-size: small;
     font-style: italic;
+}
+
+#month{
+    padding: 2%;
+    margin: 2% 0 2% 0;
+}
+
+#month:nth-of-type(even) {
+    background-color: #cc4e4e;
+}
+
+#month:nth-of-type(odd) {
+    background-color:cadetblue ;
 }
 
 @media (max-width: 840px) {
